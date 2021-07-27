@@ -1,0 +1,146 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #313131;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover, a.active{
+    color: #339999;
+    text-decoration: underline;
+}
+
+/*****************header**********/
+
+header{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid #00b9b9;
+}
+.logo{
+    margin-top: 55px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+ul.gnb{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.gnb>li{
+    height: 60px;
+    text-align: right;
+    padding-right: 55px;
+}
+.blog2{
+    margin-top: 0px;
+    background: url(../images/로고2.png) no-repeat 40px top;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.searchform input[type=text]{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #333;
+    padding-left: 15px;
+    
+    background: url(../images/Untitled-2.png) no-repeat 180px 1px;
+}
+
+a.sns{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.snsbox{
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+/**본문**/
+.container{
+    margin-left: 300px;
+    width: 900px;
+
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contents{
+    width: 650px;
+    float: left;
+    padding: 60px 30px ;
+    
+}
+
+.container .aside{
+    width: 250px;
+    float: left;
+    background-color: #d7ffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+ul.listbox{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listbox a.imgbox{
+    display: block;
+    width: 135px;
+    height: 135px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.listbox img{
+    max-width: 100%;
+}
+.listbox h1{
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 2;
+}
+.hasharea{
+padding-top: 10px;
+padding-left: 150px;
+padding-bottom: 10px;
+}
+.hash{
+    margin-right: 10px;
+}
+.hash:last-of-type{
+    margin-right: 20px;
+}
+.hash::before{
+    content: "#";
+}
+.hesharea .wdate{
+    margin-left:10px;
+    margin-right:15px;
+}
+.comment{
+    margin-left: 10px;
+
+}
